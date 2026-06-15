@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://YOUR-GATEWAY-URL.onrender.com/api/plans';
+const API_BASE_URL = 'https://submange-bankend-2.onrender.com/api/plans';
 
 export const getPlans = async () => {
     const response = await fetch(API_BASE_URL, {
