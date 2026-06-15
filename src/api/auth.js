@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8000/api/users';
+const API_BASE_URL = 'https://YOUR-GATEWAY-URL.onrender.com/api/users';
 
 export const login = async (email, password) => {
     const response = await fetch(`${API_BASE_URL}/login`, {

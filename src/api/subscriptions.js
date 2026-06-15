@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8000/api/subscriptions';
+const API_BASE_URL = 'https://YOUR-GATEWAY-URL.onrender.com/api/subscriptions';
 
 export const getSubscriptions = async (email = '') => {
     let url = API_BASE_URL;

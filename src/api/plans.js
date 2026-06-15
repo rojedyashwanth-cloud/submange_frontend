@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8000/api/plans';
+const API_BASE_URL = 'https://YOUR-GATEWAY-URL.onrender.com/api/plans';
 
 export const getPlans = async () => {
     const response = await fetch(API_BASE_URL, {
